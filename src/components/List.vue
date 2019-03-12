@@ -3,6 +3,7 @@
    <router-link class="list-item" to="/VuexTest">Vuex练习</router-link>
    <router-link class="list-item" to="/Parent">父子组件传值</router-link>
    <router-link class="list-item" to="/Parent1">父子组件方法调用</router-link>
+   <router-link class="list-item" to="/Instruction">各种指令v-</router-link>
  </div>
 </template>
 
