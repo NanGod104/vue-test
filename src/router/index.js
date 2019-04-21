@@ -5,6 +5,8 @@ import Parent from '@/components/Parent child component pass value/Parent'
 import Parent1 from '@/components/Parent and child component method calls/Parent'
 import List from '@/components/List'
 import Instruction from '@/components/Instruction'
+import ElementUITable from '@/components/ElementUITable'
+import ElementUITable1 from '@/components/ElementUITable1'
 
 Vue.use(Router)
 
@@ -34,6 +36,16 @@ export default new Router({
       path: '/Instruction',
       name: 'Instruction',
       component: Instruction
+    },
+    {
+      path: '/ElementUITable',
+      name: 'ElementUITable',
+      component: ElementUITable
+    },
+    {
+      path: '/ElementUITable1',
+      name: 'ElementUITable1',
+      component: ElementUITable1
     }
   ]
 })
